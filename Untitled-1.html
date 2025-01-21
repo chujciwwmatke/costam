@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Riot Games - Strona Główna</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="unknown.png" alt="Riot Games Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#games">Gry</a></li>
+                <li><a href="#news">Aktualności</a></li>
+                <li><a href="#community">Społeczność</a></li>
+                <li><a href="#support">Wsparcie</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Witaj w Riot Games</h1>
+            <p>Tworzymy gry, które inspirują miliony graczy na całym świecie.</p>
+            <a href="#games" class="btn">Odkryj nasze gry</a>
+        </section>
+
+        <section id="games" class="games">
+            <h2>Nasze Gry</h2>
+            <div class="game-list">
+                <div class="game">
+                    <img src="liga.png" alt="League of Legends">
+                    <h3>League of Legends</h3>
+                </div>
+                <div class="game">
+                    <img src="valo.png" alt="Valorant">
+                    <h3>Valorant</h3>
+                </div>
+                <div class="game">
+                    <img src="wildirft.png" alt="Wild Rift">
+                    <h3>Wild Rift</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news">
+            <h2>Aktualności</h2>
+            <article>
+                <h3>Nowy Bohater w League of Legends</h3>
+                <p>Poznajcie nowego bohatera, który dołącza do Riftu!</p>
+            </article>
+            <article>
+                <h3>Valorant - Aktualizacja Map</h3>
+                <p>Sprawdź, co nowego w ostatniej aktualizacji.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Riot Games. Wszelkie prawa zastrzeżone.</p>
+    </footer>
 </body>
 </html>

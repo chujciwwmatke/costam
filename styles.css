@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #202020;
+    border-bottom: 2px solid #ff4655;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff4655;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('hero_background.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #ff4655;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #ff6a75;
+}
+
+.games, .news {
+    padding: 40px 20px;
+}
+
+.games h2, .news h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game {
+    text-align: center;
+    max-width: 200px;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #202020;
+    border-top: 2px solid #ff4655;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
